@@ -89,7 +89,7 @@ def stream_chat(messages):
             if tc.function and tc.function.name:
                 obj.function.name += tc.function.name
             if tc.function and tc.function.arguments:
-                obj.function.arugments += tc.function.arugments
+                obj.function.arguments += tc.function.arguments
 
     #  since we printed the label and response we need to move forward to next line
     if label_printed:
